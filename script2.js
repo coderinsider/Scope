@@ -29,3 +29,15 @@ const screamWarriors = () => {
 
 // no issues running this function
 screamWarriors();
+
+
+// Exercise 2
+const screamWarriors2 = () => {
+	var warrior1 = 'John';
+	var warrior2 = 'Smark';
+	return `Our  warriors are ${warrior1} and ${warrior2}`;
+
+}
+console.log(screamWarriors2());
+// There is warrior1 and warrior2 are not available globally
+console.log(warrior1, warrior2);
